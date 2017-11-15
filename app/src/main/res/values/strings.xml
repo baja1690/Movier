@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Movier</string>
+    <string name="reload">Reload</string>
+    <string name="message_loading">Loading...</string>
+</resources>

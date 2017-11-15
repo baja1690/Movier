@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"/>
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/tvLikeCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_favorite_border_black"
+        android:layout_alignParentBottom="true"
+        android:text="100"
+        android:drawablePadding="10dp"
+        android:padding="8dp"
+        android:drawableTint="#d43030"
+        android:background="@drawable/background_movie_like_count"
+        android:textColor="#fff"/>
+</RelativeLayout>
